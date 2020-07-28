@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#3CD8B4">
+
+            <TextView
+                android:id="@+id/txtResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_span="4" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#3CD8B4">
+
+            <EditText
+                android:id="@+id/edtInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_span="4"
+                android:inputType="number" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnCE"
+                android:background="#E6E3DF"
+                android:text="CE" />
+
+            <Button
+                android:id="@+id/btnC"
+                android:background="#E6E3DF"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_span="2"
+                android:background="#E6E3DF"
+                android:text="Delete"
+
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnNumber7"
+                android:background="#E6E3DF"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/btnNumber8"
+                android:background="#E6E3DF"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/btnNumber9"
+                android:background="#E6E3DF"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/btnNumberAdd"
+                android:background="#E6E3DF"
+                android:text="+" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnNumber4"
+                android:background="#E6E3DF"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/btnNumber5"
+                android:background="#E6E3DF"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/btnNumber6"
+                android:background="#E6E3DF"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/btnNumberSub"
+                android:background="#E6E3DF"
+                android:text="-" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnNumber1"
+                android:background="#E6E3DF"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btnNumber2"
+                android:background="#E6E3DF"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/btnNumber3"
+                android:background="#E6E3DF"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/btnNumberMul"
+                android:background="#E6E3DF"
+                android:text="*" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnNumber0"
+                android:background="#E6E3DF"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btnDot"
+                android:background="#E6E3DF"
+                android:text="." />
+
+            <Button
+                android:id="@+id/btnResult"
+                android:background="#E6E3DF"
+                android:text="=" />
+
+            <Button
+                android:id="@+id/btnNumberDiv"
+                android:background="#E6E3DF"
+                android:text="/" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
